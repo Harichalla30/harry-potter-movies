@@ -1,6 +1,9 @@
-import { Movies } from "./movies";
-
-export interface MovieDetails extends Movies {
+export interface MovieDetails {
+  id: string;
+  title: string;
+  duration: string;
+  budget: string;
+  release_date: string;
   box_office: string;
   cinematographers: string[];
   poster: string;
